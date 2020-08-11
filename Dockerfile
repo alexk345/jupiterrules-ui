@@ -7,7 +7,7 @@ RUN apt-get update
 RUN npm install
 RUN npm install react-scripts@3.0.1 -g 
 COPY . /usr/src/app/
-RUN npm run build
+RUN npm run build 
 
 # production environment
 FROM nginx:1.16.0-alpine
