@@ -13,6 +13,7 @@ class App extends Component {
   async createUser() {
     await axios.get(apiUrl + '/user-create');
     this.loadUsers();
+    console.log ("create user clicked");
   }
 
   async loadUsers() {
