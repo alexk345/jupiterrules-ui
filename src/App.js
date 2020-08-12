@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import axios from 'axios';
 import './App.css';
 
-const apiUrl = `http://localhost:8080`;
+const apiUrl = `localhost:8080`;
 
 class App extends Component {
   state = {
