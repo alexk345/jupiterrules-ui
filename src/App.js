@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import axios from 'axios';
 import './App.css';
 
-const apiUrl = `http://server.jupiterrules.com:8080`;
+const apiUrl = `http://server.jupiterrules.com`;
 
 class App extends Component {
   state = {
